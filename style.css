@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(96, 172, 172);
+  padding: 24px;
+}
+
+#user {
+  width: calc(100vw - 48px);
+  aspect-ratio: 1;
+  background-image: url("./egg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 24px;
+  background-color: white;
+}
+
+#guest {
+  width: calc(100vw - 48px);
+  aspect-ratio: 1;
+  background-image: url("https://picsum.photos/200");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 24px;
+  background-color: white;
+
+}
+
+#change {
+  font-size: 50px;
+  position: absolute;
+  left: calc(50% - 41px);
+  top: calc(50% - 41px);
+  z-index: 100;
+  padding: 16px;
+  border-radius: 50%;
+  background-color: rgb(184, 82, 162);
+  color: rgb(52, 50, 175);
+}
